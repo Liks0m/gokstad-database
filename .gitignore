@@ -1,0 +1,52 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*~
+
+# Environment / secrets
+.env
+.env.*
+
+# Logs
+*.log
+
+# Draw.io backups
+*.drawio.bkp
+*.drawio.dtmp
+
+# MySQL
+# Data directory and storage engine files
+mysql-data/
+data/
+*.ibd
+ibdata*
+ib_logfile*
+ibtmp*
+*.frm
+*.MYD
+*.MYI
+*.myd
+*.myi
+
+# Binary / relay / error logs
+mysql-bin.*
+*-bin.[0-9]*
+*-relay-bin.*
+*.err
+*.pid
+
+# Client history and local credentials
+.mysql_history
+.my.cnf
+my.cnf.local
+
+# MySQL Workbench backups
+*.mwb.bak
+*.mwb.beforefix
